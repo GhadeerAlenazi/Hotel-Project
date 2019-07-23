@@ -1,0 +1,277 @@
+/* Base Element */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7rem;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+h1,h2,h3{
+    padding-bottom: 20px;
+}
+p{
+    margin: 10px 0;
+}
+/* Utilites (classes)*/ 
+.container{
+    width: 1100px;
+    margin: 0 auto;
+
+}
+
+.text-primary{
+    color: #f7c08a;
+}
+
+
+.btn{
+    background-color: #333;
+    color: #ffffff;
+    padding: 20px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+.btn-light{
+    background-color: white;
+    color: #333;
+}
+.btn:hover{
+    background-color: #f7c08a;
+    color: black;
+}
+.light{
+    background-color: antiquewhite;
+}
+.dark{
+    background-color: #f7c08a;
+}
+.clr{
+    clear: both;
+}
+.l-heading{
+    font-size: 40px;
+}
+.py-3{
+    padding: 30px 0;
+}
+.box{
+    text-align: center;
+    float: left;
+    padding: 40px 20px;
+    width: 33.3%;
+    height: 250px;
+}
+/* navbar */
+#navbar{
+    background-color: #333;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    
+    
+   
+
+}
+#navbar h1{
+    float: left;
+    padding-top: 20px;
+    
+}
+#navbar h1 a{
+    color: white;
+}
+#navbar ul{
+    float: right;
+    list-style-type: none;
+}
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 20px;
+}
+#navbar ul li a:hover{
+    background-color: #444;
+    color: #f7c08a;
+}
+
+#navbar ul li{
+    float: left;
+}
+/* sileshow */
+#slideshow{
+    background-image: url('../img/showcase.jpg');
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    height: 600px;
+    
+
+}
+#slideshow .slideshow-content{
+    text-align: center;
+    color: white;
+    padding-top: 120px;
+}
+#slideshow .slideshow-content h1{
+    font-size: 60px;
+
+}
+
+#slideshow .slideshow-content p{
+    padding: 20px;
+    font-size: 20px;
+}
+/* Home */
+#home{
+    background-color: #333;
+    height: 400px;
+    overflow: hidden;
+}
+#home .home-content{
+    color: white;
+    text-align: center;
+    width: 50%;
+    float: right;
+    padding-top: 100px;
+}
+#home .home-content p{
+    padding-bottom: 20px;
+}
+
+#home .home-img{
+    background-image: url('../img/photo-1.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+/* features */
+#features{
+    overflow: hidden;
+}
+i{
+    padding-bottom: 20px;
+}
+/* footer */
+#footer{
+    clear: both;
+    text-align: center;
+    background-color: #333;
+    height: 80px;
+    padding-top: 20px;
+    color: white;
+    
+}
+/* ------------------------------------About.html------------------------------- */
+/* about-info */
+#about-info{
+    padding-top: 100px;
+    overflow: hidden;
+    height: 410px;
+    
+}
+#about-info .info{
+    float: left;
+    width: 50%;
+    height: 100;
+    padding-right: 20px;
+    
+    
+}
+#about-info .img{
+    background-image: url("../img/photo-2.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+    width: 40%;
+    height: 300px;
+    border-radius: 100%;
+
+}
+/* testimonials */
+#testimonials{
+    background-image: url("../img/test-bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+#testimonials .l-heading{
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#testimonials .person1{
+    background-color: #f7c08a;
+    padding: 20px;
+    padding-bottom: 25px;
+    overflow: hidden;
+    opacity: 0.9;
+    border-radius: 5px;
+    margin-bottom: 30px;
+
+}
+#testimonials .person1 img{
+    float: left;
+    width: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+#testimonials .person1 p {
+    padding: 20px 0px;
+}
+#testimonials .person2{
+    background-color: #f7c08a;
+    padding: 20px;
+    padding-bottom: 25px;
+    overflow: hidden;
+    opacity: 0.9;
+    border-radius: 5px;
+}
+#testimonials .person2 p {
+    padding: 20px 0px;
+}
+#testimonials .person2 img{
+    float: left;
+    width: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+/* -----------------------------------------contact us.html---------------------------------------- */
+/* #contactus */
+#contactus{
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+#contactus input{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 20px;
+}
+#contactus input, textarea{
+    border: 1px #ddd solid;
+}
+/* #contact-info */
+#contact-info{
+    background-color: #333;
+    height: 250px;
+    
+}
+
+#contact-info .box{
+    color: #ffffff;
+    border-bottom: 10px black solid;
+}
